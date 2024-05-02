@@ -11,9 +11,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        backGround.layer.cornerRadius = 18
+        backGround.layer.masksToBounds = true
     }
 
-
+    @IBOutlet var backGround: UIView!
+    
 }
 
