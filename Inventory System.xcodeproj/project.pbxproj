@@ -99,13 +99,9 @@
 		F8031F7A2BE334B800CE8604 /* Inventory System */ = {
 			isa = PBXGroup;
 			children = (
-				F8031F7B2BE334B800CE8604 /* AppDelegate.swift */,
-				F8031F7D2BE334B800CE8604 /* SceneDelegate.swift */,
-				F8031F7F2BE334B800CE8604 /* ViewController.swift */,
+				F8031FAF2BE3359700CE8604 /* Controllers */,
 				F8031F812BE334B800CE8604 /* Main.storyboard */,
-				F8031F842BE334BA00CE8604 /* Assets.xcassets */,
-				F8031F862BE334BA00CE8604 /* LaunchScreen.storyboard */,
-				F8031F892BE334BA00CE8604 /* Info.plist */,
+				F8031FAC2BE3355100CE8604 /* System files */,
 			);
 			path = "Inventory System";
 			sourceTree = "<group>";
@@ -125,6 +121,26 @@
 				F8031F9E2BE334BA00CE8604 /* Inventory_SystemUITestsLaunchTests.swift */,
 			);
 			path = "Inventory SystemUITests";
+			sourceTree = "<group>";
+		};
+		F8031FAC2BE3355100CE8604 /* System files */ = {
+			isa = PBXGroup;
+			children = (
+				F8031F842BE334BA00CE8604 /* Assets.xcassets */,
+				F8031F862BE334BA00CE8604 /* LaunchScreen.storyboard */,
+				F8031F892BE334BA00CE8604 /* Info.plist */,
+				F8031F7B2BE334B800CE8604 /* AppDelegate.swift */,
+				F8031F7D2BE334B800CE8604 /* SceneDelegate.swift */,
+			);
+			name = "System files";
+			sourceTree = "<group>";
+		};
+		F8031FAF2BE3359700CE8604 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F8031F7F2BE334B800CE8604 /* ViewController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
