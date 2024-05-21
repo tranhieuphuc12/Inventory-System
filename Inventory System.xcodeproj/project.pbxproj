@@ -16,6 +16,8 @@
 		F8031F932BE334BA00CE8604 /* Inventory_SystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8031F922BE334BA00CE8604 /* Inventory_SystemTests.swift */; };
 		F8031F9D2BE334BA00CE8604 /* Inventory_SystemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8031F9C2BE334BA00CE8604 /* Inventory_SystemUITests.swift */; };
 		F8031F9F2BE334BA00CE8604 /* Inventory_SystemUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8031F9E2BE334BA00CE8604 /* Inventory_SystemUITestsLaunchTests.swift */; };
+		F84980CD2BFBABFF00F6B2CB /* UIAmountStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84980CC2BFBABFE00F6B2CB /* UIAmountStepper.swift */; };
+		F85B9CB12BFBA10A001A8B37 /* AddProductToBillController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85B9CB02BFBA10A001A8B37 /* AddProductToBillController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		F8031F982BE334BA00CE8604 /* Inventory SystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Inventory SystemUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8031F9C2BE334BA00CE8604 /* Inventory_SystemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inventory_SystemUITests.swift; sourceTree = "<group>"; };
 		F8031F9E2BE334BA00CE8604 /* Inventory_SystemUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inventory_SystemUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F84980CC2BFBABFE00F6B2CB /* UIAmountStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAmountStepper.swift; sourceTree = "<group>"; };
+		F85B9CB02BFBA10A001A8B37 /* AddProductToBillController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductToBillController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		F8031F7A2BE334B800CE8604 /* Inventory System */ = {
 			isa = PBXGroup;
 			children = (
+				F84980CB2BFBAB5100F6B2CB /* Controls */,
 				F8031FAF2BE3359700CE8604 /* Controllers */,
 				F8031F812BE334B800CE8604 /* Main.storyboard */,
 				F8031FAC2BE3355100CE8604 /* System files */,
@@ -139,8 +144,17 @@
 			isa = PBXGroup;
 			children = (
 				F8031F7F2BE334B800CE8604 /* ViewController.swift */,
+				F85B9CB02BFBA10A001A8B37 /* AddProductToBillController.swift */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F84980CB2BFBAB5100F6B2CB /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				F84980CC2BFBABFE00F6B2CB /* UIAmountStepper.swift */,
+			);
+			path = Controls;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +290,8 @@
 			files = (
 				F8031F802BE334B800CE8604 /* ViewController.swift in Sources */,
 				F8031F7C2BE334B800CE8604 /* AppDelegate.swift in Sources */,
+				F84980CD2BFBABFF00F6B2CB /* UIAmountStepper.swift in Sources */,
+				F85B9CB12BFBA10A001A8B37 /* AddProductToBillController.swift in Sources */,
 				F8031F7E2BE334B800CE8604 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
