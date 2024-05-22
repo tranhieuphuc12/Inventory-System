@@ -732,7 +732,7 @@
                                             <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <stackView opaque="NO" contentMode="scaleToFill" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="9Ez-1H-2od">
+                                        <stackView opaque="NO" contentMode="scaleToFill" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="9Ez-1H-2od" customClass="UIProductStepper" customModule="Inventory_System" customModuleProvider="target">
                                             <rect key="frame" x="265" y="22" width="152" height="50"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7S7-9l-KXC">
@@ -743,6 +743,9 @@
                                                     </constraints>
                                                     <state key="normal" title="Button"/>
                                                     <buttonConfiguration key="configuration" style="filled" title="+"/>
+                                                    <connections>
+                                                        <action selector="increaseButton" destination="EIc-Tm-IZZ" eventType="touchUpInside" id="rbr-vq-klq"/>
+                                                    </connections>
                                                 </button>
                                                 <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jIt-75-b1C">
                                                     <rect key="frame" x="51" y="0.0" width="50" height="50"/>
@@ -755,6 +758,9 @@
                                                     <color key="textColor" systemColor="viewFlipsideBackgroundColor"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
+                                                    <connections>
+                                                        <action selector="textValue" destination="EIc-Tm-IZZ" eventType="editingDidEnd" id="UgK-qq-OPb"/>
+                                                    </connections>
                                                 </textField>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qBK-3c-OnN">
                                                     <rect key="frame" x="102" y="0.0" width="50" height="50"/>
@@ -764,6 +770,9 @@
                                                     </constraints>
                                                     <state key="normal" title="Button"/>
                                                     <buttonConfiguration key="configuration" style="filled" title="-"/>
+                                                    <connections>
+                                                        <action selector="decreaseButton" destination="EIc-Tm-IZZ" eventType="touchUpInside" id="zVA-dH-56y"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                         </stackView>
@@ -803,6 +812,7 @@
                     </tableView>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYQ-E4-Q6e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="EIc-Tm-IZZ" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="146.51162790697674" y="652.78969957081551"/>
         </scene>

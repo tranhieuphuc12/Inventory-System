@@ -19,6 +19,8 @@
 		F816B1592BFC907D00AD387D /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F816B1582BFC907D00AD387D /* Customer.swift */; };
 		F816B15C2BFC93FF00AD387D /* CellCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F816B15B2BFC93FF00AD387D /* CellCustomer.swift */; };
 		F816B15E2BFC965F00AD387D /* CustomerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F816B15D2BFC965F00AD387D /* CustomerTableViewController.swift */; };
+		F816B1652BFDDBEC00AD387D /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F816B1642BFDDBEC00AD387D /* ProductCell.swift */; };
+		F816B1672BFDE1F900AD387D /* UIProductStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F816B1662BFDE1F900AD387D /* UIProductStepper.swift */; };
 		F84980D22BFC590000F6B2CB /* CustomItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84980D12BFC590000F6B2CB /* CustomItem.swift */; };
 		F84980D52BFC5A7000F6B2CB /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84980D42BFC5A7000F6B2CB /* HomeController.swift */; };
 		F85B9CB12BFBA10A001A8B37 /* AddProductToBillController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85B9CB02BFBA10A001A8B37 /* AddProductToBillController.swift */; };
@@ -58,6 +60,8 @@
 		F816B1582BFC907D00AD387D /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
 		F816B15B2BFC93FF00AD387D /* CellCustomer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellCustomer.swift; sourceTree = "<group>"; };
 		F816B15D2BFC965F00AD387D /* CustomerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerTableViewController.swift; sourceTree = "<group>"; };
+		F816B1642BFDDBEC00AD387D /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProductCell.swift; path = Controls/ProductCell.swift; sourceTree = "<group>"; };
+		F816B1662BFDE1F900AD387D /* UIProductStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIProductStepper.swift; path = Controls/UIProductStepper.swift; sourceTree = "<group>"; };
 		F84980D12BFC590000F6B2CB /* CustomItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomItem.swift; sourceTree = "<group>"; };
 		F84980D42BFC5A7000F6B2CB /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		F85B9CB02BFBA10A001A8B37 /* AddProductToBillController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductToBillController.swift; sourceTree = "<group>"; };
@@ -173,6 +177,8 @@
 			isa = PBXGroup;
 			children = (
 				F816B15B2BFC93FF00AD387D /* CellCustomer.swift */,
+				F816B1642BFDDBEC00AD387D /* ProductCell.swift */,
+				F816B1662BFDE1F900AD387D /* UIProductStepper.swift */,
 			);
 			name = Controls;
 			sourceTree = "<group>";
@@ -323,6 +329,8 @@
 				F816B1592BFC907D00AD387D /* Customer.swift in Sources */,
 				F84980D22BFC590000F6B2CB /* CustomItem.swift in Sources */,
 				F84980D52BFC5A7000F6B2CB /* HomeController.swift in Sources */,
+				F816B1672BFDE1F900AD387D /* UIProductStepper.swift in Sources */,
+				F816B1652BFDDBEC00AD387D /* ProductCell.swift in Sources */,
 				F816B15C2BFC93FF00AD387D /* CellCustomer.swift in Sources */,
 				F816B15E2BFC965F00AD387D /* CustomerTableViewController.swift in Sources */,
 			);
