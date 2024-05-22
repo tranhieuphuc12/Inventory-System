@@ -24,6 +24,13 @@
 		F8031F932BE334BA00CE8604 /* Inventory_SystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8031F922BE334BA00CE8604 /* Inventory_SystemTests.swift */; };
 		F8031F9D2BE334BA00CE8604 /* Inventory_SystemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8031F9C2BE334BA00CE8604 /* Inventory_SystemUITests.swift */; };
 		F8031F9F2BE334BA00CE8604 /* Inventory_SystemUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8031F9E2BE334BA00CE8604 /* Inventory_SystemUITestsLaunchTests.swift */; };
+		F816B1592BFC907D00AD387D /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F816B1582BFC907D00AD387D /* Customer.swift */; };
+		F816B15C2BFC93FF00AD387D /* CellCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F816B15B2BFC93FF00AD387D /* CellCustomer.swift */; };
+		F816B15E2BFC965F00AD387D /* CustomerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F816B15D2BFC965F00AD387D /* CustomerTableViewController.swift */; };
+		F84980D22BFC590000F6B2CB /* CustomItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84980D12BFC590000F6B2CB /* CustomItem.swift */; };
+		F84980D52BFC5A7000F6B2CB /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84980D42BFC5A7000F6B2CB /* HomeController.swift */; };
+		F84980CD2BFBABFF00F6B2CB /* UIAmountStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84980CC2BFBABFE00F6B2CB /* UIAmountStepper.swift */; };
+		F85B9CB12BFBA10A001A8B37 /* AddProductToBillController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85B9CB02BFBA10A001A8B37 /* AddProductToBillController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +79,13 @@
 		F8031F982BE334BA00CE8604 /* Inventory SystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Inventory SystemUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8031F9C2BE334BA00CE8604 /* Inventory_SystemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inventory_SystemUITests.swift; sourceTree = "<group>"; };
 		F8031F9E2BE334BA00CE8604 /* Inventory_SystemUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inventory_SystemUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F816B1582BFC907D00AD387D /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		F816B15B2BFC93FF00AD387D /* CellCustomer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellCustomer.swift; sourceTree = "<group>"; };
+		F816B15D2BFC965F00AD387D /* CustomerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerTableViewController.swift; sourceTree = "<group>"; };
+		F84980D12BFC590000F6B2CB /* CustomItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomItem.swift; sourceTree = "<group>"; };
+		F84980D42BFC5A7000F6B2CB /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		F84980CC2BFBABFE00F6B2CB /* UIAmountStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAmountStepper.swift; sourceTree = "<group>"; };
+		F85B9CB02BFBA10A001A8B37 /* AddProductToBillController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductToBillController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +181,9 @@
 			isa = PBXGroup;
 			children = (
 				8D6769AD2BFDC1A1002C790A /* FMDB */,
+				F816B15A2BFC93C200AD387D /* Controls */,
+				F816B1552BFC8FDC00AD387D /* Models */,
+				F84980D02BFC588900F6B2CB /* Customs */,
 				F8031FAF2BE3359700CE8604 /* Controllers */,
 				F8031F812BE334B800CE8604 /* Main.storyboard */,
 				F8031FAC2BE3355100CE8604 /* System files */,
@@ -209,10 +226,39 @@
 			isa = PBXGroup;
 			children = (
 				F8031F7F2BE334B800CE8604 /* ViewController.swift */,
+
 				8DA847612BFBA50D0046551B /* StorageTableViewController.swift */,
 				8DCF00722BFC79AC005A6B0F /* UpdateStorageController.swift */,
+				F84980D42BFC5A7000F6B2CB /* HomeController.swift */,
+				F816B15D2BFC965F00AD387D /* CustomerTableViewController.swift */,
+				F85B9CB02BFBA10A001A8B37 /* AddProductToBillController.swift */,
+
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F816B1552BFC8FDC00AD387D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F816B1582BFC907D00AD387D /* Customer.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F816B15A2BFC93C200AD387D /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				F816B15B2BFC93FF00AD387D /* CellCustomer.swift */,
+			);
+			name = Controls;
+			sourceTree = "<group>";
+		};
+		F84980D02BFC588900F6B2CB /* Customs */ = {
+			isa = PBXGroup;
+			children = (
+				F84980D12BFC590000F6B2CB /* CustomItem.swift */,
+			);
+			name = Customs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -360,6 +406,14 @@
 				8D6769BF2BFDC1E6002C790A /* FMDatabasePool.m in Sources */,
 				8DCF00732BFC79AC005A6B0F /* UpdateStorageController.swift in Sources */,
 				8D6769BB2BFDC1E6002C790A /* FMDatabaseAdditions.m in Sources */,
+				F84980CD2BFBABFF00F6B2CB /* UIAmountStepper.swift in Sources */,
+				F85B9CB12BFBA10A001A8B37 /* AddProductToBillController.swift in Sources */,
+				F8031F7E2BE334B800CE8604 /* SceneDelegate.swift in Sources */,
+				F816B1592BFC907D00AD387D /* Customer.swift in Sources */,
+				F84980D22BFC590000F6B2CB /* CustomItem.swift in Sources */,
+				F84980D52BFC5A7000F6B2CB /* HomeController.swift in Sources */,
+				F816B15C2BFC93FF00AD387D /* CellCustomer.swift in Sources */,
+				F816B15E2BFC965F00AD387D /* CustomerTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
