@@ -21,7 +21,6 @@
 		F816B15E2BFC965F00AD387D /* CustomerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F816B15D2BFC965F00AD387D /* CustomerTableViewController.swift */; };
 		F84980D22BFC590000F6B2CB /* CustomItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84980D12BFC590000F6B2CB /* CustomItem.swift */; };
 		F84980D52BFC5A7000F6B2CB /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84980D42BFC5A7000F6B2CB /* HomeController.swift */; };
-		F84980CD2BFBABFF00F6B2CB /* UIAmountStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84980CC2BFBABFE00F6B2CB /* UIAmountStepper.swift */; };
 		F85B9CB12BFBA10A001A8B37 /* AddProductToBillController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85B9CB02BFBA10A001A8B37 /* AddProductToBillController.swift */; };
 /* End PBXBuildFile section */
 
@@ -61,7 +60,6 @@
 		F816B15D2BFC965F00AD387D /* CustomerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerTableViewController.swift; sourceTree = "<group>"; };
 		F84980D12BFC590000F6B2CB /* CustomItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomItem.swift; sourceTree = "<group>"; };
 		F84980D42BFC5A7000F6B2CB /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
-		F84980CC2BFBABFE00F6B2CB /* UIAmountStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAmountStepper.swift; sourceTree = "<group>"; };
 		F85B9CB02BFBA10A001A8B37 /* AddProductToBillController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductToBillController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -320,7 +318,6 @@
 			files = (
 				F8031F802BE334B800CE8604 /* ViewController.swift in Sources */,
 				F8031F7C2BE334B800CE8604 /* AppDelegate.swift in Sources */,
-				F84980CD2BFBABFF00F6B2CB /* UIAmountStepper.swift in Sources */,
 				F85B9CB12BFBA10A001A8B37 /* AddProductToBillController.swift in Sources */,
 				F8031F7E2BE334B800CE8604 /* SceneDelegate.swift in Sources */,
 				F816B1592BFC907D00AD387D /* Customer.swift in Sources */,
