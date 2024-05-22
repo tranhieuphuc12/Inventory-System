@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D6769BB2BFDC1E6002C790A /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6769B02BFDC1E6002C790A /* FMDatabaseAdditions.m */; };
+		8D6769BC2BFDC1E6002C790A /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6769B62BFDC1E6002C790A /* FMDatabase.m */; };
+		8D6769BD2BFDC1E6002C790A /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6769B72BFDC1E6002C790A /* FMDatabaseQueue.m */; };
+		8D6769BE2BFDC1E6002C790A /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6769B92BFDC1E6002C790A /* FMResultSet.m */; };
+		8D6769BF2BFDC1E6002C790A /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6769BA2BFDC1E6002C790A /* FMDatabasePool.m */; };
+		8DA847622BFBA50D0046551B /* StorageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA847612BFBA50D0046551B /* StorageTableViewController.swift */; };
+		8DCF00732BFC79AC005A6B0F /* UpdateStorageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCF00722BFC79AC005A6B0F /* UpdateStorageController.swift */; };
+		8DCF00862BFCFF00005A6B0F /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DCF00852BFCFF00005A6B0F /* libsqlite3.0.tbd */; };
 		F8031F7C2BE334B800CE8604 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8031F7B2BE334B800CE8604 /* AppDelegate.swift */; };
 		F8031F7E2BE334B800CE8604 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8031F7D2BE334B800CE8604 /* SceneDelegate.swift */; };
 		F8031F802BE334B800CE8604 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8031F7F2BE334B800CE8604 /* ViewController.swift */; };
@@ -36,6 +44,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D6769AF2BFDC1E6002C790A /* Inventory System-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Inventory System-Bridging-Header.h"; sourceTree = "<group>"; };
+		8D6769B02BFDC1E6002C790A /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = "Inventory System/FMDB/src/FMDatabaseAdditions.m"; sourceTree = SOURCE_ROOT; };
+		8D6769B12BFDC1E6002C790A /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = "Inventory System/FMDB/src/FMDatabasePool.h"; sourceTree = SOURCE_ROOT; };
+		8D6769B22BFDC1E6002C790A /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = "Inventory System/FMDB/src/FMResultSet.h"; sourceTree = SOURCE_ROOT; };
+		8D6769B32BFDC1E6002C790A /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = "Inventory System/FMDB/src/FMDatabaseQueue.h"; sourceTree = SOURCE_ROOT; };
+		8D6769B42BFDC1E6002C790A /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = "Inventory System/FMDB/src/FMDatabaseAdditions.h"; sourceTree = SOURCE_ROOT; };
+		8D6769B52BFDC1E6002C790A /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = "Inventory System/FMDB/src/FMDB.h"; sourceTree = SOURCE_ROOT; };
+		8D6769B62BFDC1E6002C790A /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = "Inventory System/FMDB/src/FMDatabase.m"; sourceTree = SOURCE_ROOT; };
+		8D6769B72BFDC1E6002C790A /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = "Inventory System/FMDB/src/FMDatabaseQueue.m"; sourceTree = SOURCE_ROOT; };
+		8D6769B82BFDC1E6002C790A /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = "Inventory System/FMDB/src/FMDatabase.h"; sourceTree = SOURCE_ROOT; };
+		8D6769B92BFDC1E6002C790A /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = "Inventory System/FMDB/src/FMResultSet.m"; sourceTree = SOURCE_ROOT; };
+		8D6769BA2BFDC1E6002C790A /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = "Inventory System/FMDB/src/FMDatabasePool.m"; sourceTree = SOURCE_ROOT; };
+		8DA847612BFBA50D0046551B /* StorageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageTableViewController.swift; sourceTree = "<group>"; };
+		8DCF00722BFC79AC005A6B0F /* UpdateStorageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateStorageController.swift; sourceTree = "<group>"; };
+		8DCF00852BFCFF00005A6B0F /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		F8031F782BE334B800CE8604 /* Inventory System.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Inventory System.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8031F7B2BE334B800CE8604 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8031F7D2BE334B800CE8604 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DCF00862BFCFF00005A6B0F /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +100,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D6769AD2BFDC1A1002C790A /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				8D6769AE2BFDC1D3002C790A /* framework */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		8D6769AE2BFDC1D3002C790A /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				8D6769B82BFDC1E6002C790A /* FMDatabase.h */,
+				8D6769B62BFDC1E6002C790A /* FMDatabase.m */,
+				8D6769B42BFDC1E6002C790A /* FMDatabaseAdditions.h */,
+				8D6769B02BFDC1E6002C790A /* FMDatabaseAdditions.m */,
+				8D6769B12BFDC1E6002C790A /* FMDatabasePool.h */,
+				8D6769BA2BFDC1E6002C790A /* FMDatabasePool.m */,
+				8D6769B32BFDC1E6002C790A /* FMDatabaseQueue.h */,
+				8D6769B72BFDC1E6002C790A /* FMDatabaseQueue.m */,
+				8D6769B52BFDC1E6002C790A /* FMDB.h */,
+				8D6769B22BFDC1E6002C790A /* FMResultSet.h */,
+				8D6769B92BFDC1E6002C790A /* FMResultSet.m */,
+				8D6769AF2BFDC1E6002C790A /* Inventory System-Bridging-Header.h */,
+			);
+			path = framework;
+			sourceTree = "<group>";
+		};
+		8DCF00782BFCF79C005A6B0F /* fmdb framework */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "fmdb framework";
+			sourceTree = "<group>";
+		};
+		8DCF00812BFCFBFF005A6B0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DCF00852BFCFF00005A6B0F /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F8031F6F2BE334B800CE8604 = {
 			isa = PBXGroup;
 			children = (
 				F8031F7A2BE334B800CE8604 /* Inventory System */,
 				F8031F912BE334BA00CE8604 /* Inventory SystemTests */,
+				8DCF00812BFCFBFF005A6B0F /* Frameworks */,
 				F8031F9B2BE334BA00CE8604 /* Inventory SystemUITests */,
-				F8031F792BE334B800CE8604 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,11 +160,13 @@
 				F8031F982BE334BA00CE8604 /* Inventory SystemUITests.xctest */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		F8031F7A2BE334B800CE8604 /* Inventory System */ = {
 			isa = PBXGroup;
 			children = (
+				8D6769AD2BFDC1A1002C790A /* FMDB */,
 				F8031FAF2BE3359700CE8604 /* Controllers */,
 				F8031F812BE334B800CE8604 /* Main.storyboard */,
 				F8031FAC2BE3355100CE8604 /* System files */,
@@ -117,6 +185,8 @@
 		F8031F9B2BE334BA00CE8604 /* Inventory SystemUITests */ = {
 			isa = PBXGroup;
 			children = (
+				8DCF00782BFCF79C005A6B0F /* fmdb framework */,
+				F8031F792BE334B800CE8604 /* Products */,
 				F8031F9C2BE334BA00CE8604 /* Inventory_SystemUITests.swift */,
 				F8031F9E2BE334BA00CE8604 /* Inventory_SystemUITestsLaunchTests.swift */,
 			);
@@ -139,6 +209,8 @@
 			isa = PBXGroup;
 			children = (
 				F8031F7F2BE334B800CE8604 /* ViewController.swift */,
+				8DA847612BFBA50D0046551B /* StorageTableViewController.swift */,
+				8DCF00722BFC79AC005A6B0F /* UpdateStorageController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -206,11 +278,15 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
 					F8031F772BE334B800CE8604 = {
 						CreatedOnToolsVersion = 15.3;
+						LastSwiftMigration = 1520;
 					};
 					F8031F8D2BE334BA00CE8604 = {
 						CreatedOnToolsVersion = 15.3;
@@ -275,8 +351,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8031F802BE334B800CE8604 /* ViewController.swift in Sources */,
+				8D6769BD2BFDC1E6002C790A /* FMDatabaseQueue.m in Sources */,
 				F8031F7C2BE334B800CE8604 /* AppDelegate.swift in Sources */,
+				8DA847622BFBA50D0046551B /* StorageTableViewController.swift in Sources */,
+				8D6769BC2BFDC1E6002C790A /* FMDatabase.m in Sources */,
 				F8031F7E2BE334B800CE8604 /* SceneDelegate.swift in Sources */,
+				8D6769BE2BFDC1E6002C790A /* FMResultSet.m in Sources */,
+				8D6769BF2BFDC1E6002C790A /* FMDatabasePool.m in Sources */,
+				8DCF00732BFC79AC005A6B0F /* UpdateStorageController.swift in Sources */,
+				8D6769BB2BFDC1E6002C790A /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +539,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 358926G58W;
@@ -466,6 +550,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -474,6 +559,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.Inventory-System";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Inventory System/FMDB/framework/Inventory System-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -484,6 +571,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 358926G58W;
@@ -494,6 +582,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -502,6 +591,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.Inventory-System";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Inventory System/FMDB/framework/Inventory System-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
