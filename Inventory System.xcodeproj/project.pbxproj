@@ -12,7 +12,16 @@
 		8D6769BD2BFDC1E6002C790A /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6769B72BFDC1E6002C790A /* FMDatabaseQueue.m */; };
 		8D6769BE2BFDC1E6002C790A /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6769B92BFDC1E6002C790A /* FMResultSet.m */; };
 		8D6769BF2BFDC1E6002C790A /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6769BA2BFDC1E6002C790A /* FMDatabasePool.m */; };
-		8DA847622BFBA50D0046551B /* StorageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA847612BFBA50D0046551B /* StorageTableViewController.swift */; };
+		8D7C81532BFE437D00DDC23F /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7C81522BFE437D00DDC23F /* Database.swift */; };
+		8D7C81552BFE46D300DDC23F /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7C81542BFE46D300DDC23F /* Product.swift */; };
+		8D7C81572BFEF1E700DDC23F /* ImportExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7C81562BFEF1E700DDC23F /* ImportExport.swift */; };
+		8D7C81592BFEFF9600DDC23F /* UpdateProductController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7C81582BFEFF9600DDC23F /* UpdateProductController.swift */; };
+		8D7C815B2BFF264800DDC23F /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7C815A2BFF264800DDC23F /* ProductCell.swift */; };
+		8D7C815D2BFF7DC300DDC23F /* EditProductController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7C815C2BFF7DC300DDC23F /* EditProductController.swift */; };
+		8D7C815F2BFF848300DDC23F /* ImportExportTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7C815E2BFF848300DDC23F /* ImportExportTableViewController.swift */; };
+		8D7C81612BFF893200DDC23F /* ImportExportCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7C81602BFF893200DDC23F /* ImportExportCell.swift */; };
+		8D7C81632BFF8BF900DDC23F /* UpdateImportExportController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7C81622BFF8BF900DDC23F /* UpdateImportExportController.swift */; };
+		8DA847622BFBA50D0046551B /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA847612BFBA50D0046551B /* ProductsTableViewController.swift */; };
 		8DCF00732BFC79AC005A6B0F /* UpdateStorageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCF00722BFC79AC005A6B0F /* UpdateStorageController.swift */; };
 		8DCF00862BFCFF00005A6B0F /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DCF00852BFCFF00005A6B0F /* libsqlite3.0.tbd */; };
 		F8031F7C2BE334B800CE8604 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8031F7B2BE334B800CE8604 /* AppDelegate.swift */; };
@@ -27,9 +36,9 @@
 		F816B1592BFC907D00AD387D /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F816B1582BFC907D00AD387D /* Customer.swift */; };
 		F816B15C2BFC93FF00AD387D /* CellCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F816B15B2BFC93FF00AD387D /* CellCustomer.swift */; };
 		F816B15E2BFC965F00AD387D /* CustomerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F816B15D2BFC965F00AD387D /* CustomerTableViewController.swift */; };
+		F84980CD2BFBABFF00F6B2CB /* (null) in Sources */ = {isa = PBXBuildFile; };
 		F84980D22BFC590000F6B2CB /* CustomItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84980D12BFC590000F6B2CB /* CustomItem.swift */; };
 		F84980D52BFC5A7000F6B2CB /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84980D42BFC5A7000F6B2CB /* HomeController.swift */; };
-		F84980CD2BFBABFF00F6B2CB /* UIAmountStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84980CC2BFBABFE00F6B2CB /* UIAmountStepper.swift */; };
 		F85B9CB12BFBA10A001A8B37 /* AddProductToBillController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85B9CB02BFBA10A001A8B37 /* AddProductToBillController.swift */; };
 /* End PBXBuildFile section */
 
@@ -63,7 +72,16 @@
 		8D6769B82BFDC1E6002C790A /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = "Inventory System/FMDB/src/FMDatabase.h"; sourceTree = SOURCE_ROOT; };
 		8D6769B92BFDC1E6002C790A /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = "Inventory System/FMDB/src/FMResultSet.m"; sourceTree = SOURCE_ROOT; };
 		8D6769BA2BFDC1E6002C790A /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = "Inventory System/FMDB/src/FMDatabasePool.m"; sourceTree = SOURCE_ROOT; };
-		8DA847612BFBA50D0046551B /* StorageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageTableViewController.swift; sourceTree = "<group>"; };
+		8D7C81522BFE437D00DDC23F /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		8D7C81542BFE46D300DDC23F /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		8D7C81562BFEF1E700DDC23F /* ImportExport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportExport.swift; sourceTree = "<group>"; };
+		8D7C81582BFEFF9600DDC23F /* UpdateProductController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateProductController.swift; sourceTree = "<group>"; };
+		8D7C815A2BFF264800DDC23F /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		8D7C815C2BFF7DC300DDC23F /* EditProductController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProductController.swift; sourceTree = "<group>"; };
+		8D7C815E2BFF848300DDC23F /* ImportExportTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportExportTableViewController.swift; sourceTree = "<group>"; };
+		8D7C81602BFF893200DDC23F /* ImportExportCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportExportCell.swift; sourceTree = "<group>"; };
+		8D7C81622BFF8BF900DDC23F /* UpdateImportExportController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateImportExportController.swift; sourceTree = "<group>"; };
+		8DA847612BFBA50D0046551B /* ProductsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
 		8DCF00722BFC79AC005A6B0F /* UpdateStorageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateStorageController.swift; sourceTree = "<group>"; };
 		8DCF00852BFCFF00005A6B0F /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		F8031F782BE334B800CE8604 /* Inventory System.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Inventory System.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,7 +102,6 @@
 		F816B15D2BFC965F00AD387D /* CustomerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerTableViewController.swift; sourceTree = "<group>"; };
 		F84980D12BFC590000F6B2CB /* CustomItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomItem.swift; sourceTree = "<group>"; };
 		F84980D42BFC5A7000F6B2CB /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
-		F84980CC2BFBABFE00F6B2CB /* UIAmountStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAmountStepper.swift; sourceTree = "<group>"; };
 		F85B9CB02BFBA10A001A8B37 /* AddProductToBillController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductToBillController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,6 +134,7 @@
 		8D6769AD2BFDC1A1002C790A /* FMDB */ = {
 			isa = PBXGroup;
 			children = (
+				8D7C81512BFE434500DDC23F /* DAL */,
 				8D6769AE2BFDC1D3002C790A /* framework */,
 			);
 			path = FMDB;
@@ -139,6 +157,14 @@
 				8D6769AF2BFDC1E6002C790A /* Inventory System-Bridging-Header.h */,
 			);
 			path = framework;
+			sourceTree = "<group>";
+		};
+		8D7C81512BFE434500DDC23F /* DAL */ = {
+			isa = PBXGroup;
+			children = (
+				8D7C81522BFE437D00DDC23F /* Database.swift */,
+			);
+			path = DAL;
 			sourceTree = "<group>";
 		};
 		8DCF00782BFCF79C005A6B0F /* fmdb framework */ = {
@@ -226,13 +252,15 @@
 			isa = PBXGroup;
 			children = (
 				F8031F7F2BE334B800CE8604 /* ViewController.swift */,
-
-				8DA847612BFBA50D0046551B /* StorageTableViewController.swift */,
+				8DA847612BFBA50D0046551B /* ProductsTableViewController.swift */,
 				8DCF00722BFC79AC005A6B0F /* UpdateStorageController.swift */,
 				F84980D42BFC5A7000F6B2CB /* HomeController.swift */,
 				F816B15D2BFC965F00AD387D /* CustomerTableViewController.swift */,
 				F85B9CB02BFBA10A001A8B37 /* AddProductToBillController.swift */,
-
+				8D7C81582BFEFF9600DDC23F /* UpdateProductController.swift */,
+				8D7C815C2BFF7DC300DDC23F /* EditProductController.swift */,
+				8D7C815E2BFF848300DDC23F /* ImportExportTableViewController.swift */,
+				8D7C81622BFF8BF900DDC23F /* UpdateImportExportController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -241,6 +269,8 @@
 			isa = PBXGroup;
 			children = (
 				F816B1582BFC907D00AD387D /* Customer.swift */,
+				8D7C81542BFE46D300DDC23F /* Product.swift */,
+				8D7C81562BFEF1E700DDC23F /* ImportExport.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -249,6 +279,8 @@
 			isa = PBXGroup;
 			children = (
 				F816B15B2BFC93FF00AD387D /* CellCustomer.swift */,
+				8D7C815A2BFF264800DDC23F /* ProductCell.swift */,
+				8D7C81602BFF893200DDC23F /* ImportExportCell.swift */,
 			);
 			name = Controls;
 			sourceTree = "<group>";
@@ -399,21 +431,30 @@
 				F8031F802BE334B800CE8604 /* ViewController.swift in Sources */,
 				8D6769BD2BFDC1E6002C790A /* FMDatabaseQueue.m in Sources */,
 				F8031F7C2BE334B800CE8604 /* AppDelegate.swift in Sources */,
-				8DA847622BFBA50D0046551B /* StorageTableViewController.swift in Sources */,
+				8D7C815F2BFF848300DDC23F /* ImportExportTableViewController.swift in Sources */,
+				8DA847622BFBA50D0046551B /* ProductsTableViewController.swift in Sources */,
 				8D6769BC2BFDC1E6002C790A /* FMDatabase.m in Sources */,
 				F8031F7E2BE334B800CE8604 /* SceneDelegate.swift in Sources */,
 				8D6769BE2BFDC1E6002C790A /* FMResultSet.m in Sources */,
 				8D6769BF2BFDC1E6002C790A /* FMDatabasePool.m in Sources */,
 				8DCF00732BFC79AC005A6B0F /* UpdateStorageController.swift in Sources */,
 				8D6769BB2BFDC1E6002C790A /* FMDatabaseAdditions.m in Sources */,
-				F84980CD2BFBABFF00F6B2CB /* UIAmountStepper.swift in Sources */,
+				F84980CD2BFBABFF00F6B2CB /* (null) in Sources */,
 				F85B9CB12BFBA10A001A8B37 /* AddProductToBillController.swift in Sources */,
 				F8031F7E2BE334B800CE8604 /* SceneDelegate.swift in Sources */,
+				8D7C81592BFEFF9600DDC23F /* UpdateProductController.swift in Sources */,
 				F816B1592BFC907D00AD387D /* Customer.swift in Sources */,
 				F84980D22BFC590000F6B2CB /* CustomItem.swift in Sources */,
+				8D7C81572BFEF1E700DDC23F /* ImportExport.swift in Sources */,
+				8D7C815D2BFF7DC300DDC23F /* EditProductController.swift in Sources */,
 				F84980D52BFC5A7000F6B2CB /* HomeController.swift in Sources */,
+				8D7C81612BFF893200DDC23F /* ImportExportCell.swift in Sources */,
 				F816B15C2BFC93FF00AD387D /* CellCustomer.swift in Sources */,
+				8D7C81552BFE46D300DDC23F /* Product.swift in Sources */,
+				8D7C815B2BFF264800DDC23F /* ProductCell.swift in Sources */,
+				8D7C81532BFE437D00DDC23F /* Database.swift in Sources */,
 				F816B15E2BFC965F00AD387D /* CustomerTableViewController.swift in Sources */,
+				8D7C81632BFF8BF900DDC23F /* UpdateImportExportController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
