@@ -8,14 +8,14 @@
 import UIKit
 
 class UpdateProductController: UIViewController,UIImagePickerControllerDelegate, UINavigationControllerDelegate,UITabBarControllerDelegate,UITextFieldDelegate {
-
+    
     //TypeAction
     enum ActionType{
         case newProduct
         case editProduct
     }
     //Dinh nghia bien dung danh dau duong di
-     var actionType:ActionType = .newProduct
+    var actionType:ActionType = .newProduct
     //UI
     @IBOutlet weak var navigation: UINavigationItem!
     @IBOutlet weak var name: UITextField!
@@ -23,9 +23,12 @@ class UpdateProductController: UIViewController,UIImagePickerControllerDelegate,
     @IBOutlet weak var productImage: UIImageView!
     @IBOutlet weak var unit: UITextField!
     //Bien product dung de truyen tham so giua 2 man hinh
-        var product:Product?
+    var product:Product?
     override func viewDidLoad() {
         super.viewDidLoad()
+        name.keyboardType = .default
+        profit.keyboardType = .numbersAndPunctuation
+        unit.keyboardType = .default
         name.delegate = self
         profit.delegate = self
         unit.delegate = self
@@ -37,9 +40,37 @@ class UpdateProductController: UIViewController,UIImagePickerControllerDelegate,
             unit.text = product.unit
             unit.isEnabled = false
         }
-        
-        // Do any additional setup after loading the view.
     }
+    // Custom keyboard
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        // Kiểm tra nếu textField là profit (nhập số)
+        if textField == profit {
+            // Chỉ cho phép nhập các ký tự số và dấu trừ
+            let allowedCharacters = CharacterSet(charactersIn: "0123456789.")
+            let characterSet = CharacterSet(charactersIn: string)
+            let currentText = textField.text ?? ""
+            
+            
+            // Kiểm tra ký tự nhập vào có phải là ký tự được cho phép không
+            if !allowedCharacters.isSuperset(of: characterSet) {
+                return false
+            }
+            
+            // Kiểm tra chỉ có một dấu chấm thập phân
+            if string == "." {
+                if currentText.contains(".") {
+                    return false
+                }
+            }
+            
+            return true
+        }
+        
+        // Cho phép thay đổi cho tất cả các trường hợp khác
+        return true
+    }
+
+    
         // MARK: Dinh nghia ham uy quyen picker image
         // Ham uy quyen cua ImagePickerController
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {

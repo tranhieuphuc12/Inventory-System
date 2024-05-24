@@ -19,13 +19,74 @@ class UpdateImportExportController: UIViewController,UITextFieldDelegate {
         var import_export:ImportExport?
     override func viewDidLoad() {
         super.viewDidLoad()
+        quantity.keyboardType = .numbersAndPunctuation
+        cost.keyboardType = .numbersAndPunctuation
         quantity.delegate = self
         cost.delegate = self
         labelID.text = "\(product!.id)"
         labelName.text = "\(product!.name)"
-          // Do any additional setup after loading the view.
+          
     }
-    
+    // Custom keyboard
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        // Kiểm tra nếu textField là cost
+        if textField == cost {
+            
+            // Chỉ cho phép nhập các ký tự số và dấu trừ
+            let allowedCharacters = CharacterSet(charactersIn: "0123456789.")
+            let characterSet = CharacterSet(charactersIn: string)
+            let currentText = textField.text ?? ""
+            
+            
+            // Kiểm tra ký tự nhập vào có phải là ký tự được cho phép không
+            if !allowedCharacters.isSuperset(of: characterSet) {
+                return false
+            }
+            
+            // Kiểm tra chỉ có một dấu chấm thập phân
+            if string == "." {
+                if currentText.contains(".") {
+                    return false
+                }
+            }
+            
+            // Cho phép thay đổi cho tất cả các trường hợp khác
+            return true
+        }
+        // Kiểm tra nếu textField là quantity
+        else if textField == quantity {
+            
+            // Chỉ cho phép nhập các ký tự số và dấu trừ
+            let allowedCharacters = CharacterSet(charactersIn: "0123456789.-")
+            let characterSet = CharacterSet(charactersIn: string)
+            let currentText = textField.text ?? ""
+            
+            // Cho phép dấu trừ ở đầu tiên nếu nó chưa tồn tại
+            if string == "-" {
+                if range.location == 0 && !currentText.contains("-") {
+                    return true
+                } else {
+                    return false
+                }
+            }
+            
+            // Kiểm tra ký tự nhập vào có phải là ký tự được cho phép không
+            if !allowedCharacters.isSuperset(of: characterSet) {
+                return false
+            }
+            
+            // Kiểm tra chỉ có một dấu chấm thập phân
+            if string == "." {
+                if currentText.contains(".") {
+                    return false
+                }
+            }
+            
+            // Cho phép thay đổi cho tất cả các trường hợp khác
+            return true
+        }
+        return true
+    }
     // MARK: Dinh nghia ham uy quyen text field
 func textFieldShouldReturn(_ textField: UITextField) -> Bool {
     switch textField {
