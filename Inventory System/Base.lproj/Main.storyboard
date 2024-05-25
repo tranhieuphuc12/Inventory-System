@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hr9-df-Ko0">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vzl-eF-4Ds">
     <device id="retina6_72" orientation="portrait" appearance="dark"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -293,7 +293,7 @@
         <!--Products Table View Controller-->
         <scene sceneID="ahj-GB-7XR">
             <objects>
-                <tableViewController storyboardIdentifier="productsTableView" id="vzl-eF-4Ds" customClass="ProductsTableViewController" customModule="Inventory_System" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="productsTableView" modalPresentationStyle="fullScreen" id="vzl-eF-4Ds" customClass="ProductsTableViewController" customModule="Inventory_System" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="151" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="qO5-IV-nzj" userLabel="Product">
                         <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -466,7 +466,7 @@
         <!--Import Export Table View Controller-->
         <scene sceneID="TlD-CC-pfB">
             <objects>
-                <tableViewController storyboardIdentifier="ImportExportTable" id="4am-Td-bDs" customClass="ImportExportTableViewController" customModule="Inventory_System" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="ImportExportTable" modalPresentationStyle="fullScreen" id="4am-Td-bDs" customClass="ImportExportTableViewController" customModule="Inventory_System" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="120" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="NrN-rH-jRf">
                         <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -610,7 +610,7 @@
         <!--Update Import Export Controller-->
         <scene sceneID="w3f-hl-wIR">
             <objects>
-                <viewController storyboardIdentifier="UpdateImportExport" id="XKt-aG-5J7" customClass="UpdateImportExportController" customModule="Inventory_System" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="UpdateImportExport" modalPresentationStyle="fullScreen" id="XKt-aG-5J7" customClass="UpdateImportExportController" customModule="Inventory_System" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZoY-b4-q41">
                         <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1131,7 +1131,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="vSt-ks-QvA">
-                                            <rect key="frame" x="20" y="9" width="132" height="47.666666666666664"/>
+                                            <rect key="frame" x="20" y="8.9999999999999964" width="132" height="47.666666666666657"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ten Khach Hang" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yoh-9A-NL8">
                                                     <rect key="frame" x="0.0" y="0.0" width="132" height="20.333333333333332"/>
@@ -1179,7 +1179,7 @@
         <!--Update Product Controller-->
         <scene sceneID="I6h-ZQ-u2q">
             <objects>
-                <viewController storyboardIdentifier="updateProduct" id="hHo-w7-lYc" customClass="UpdateProductController" customModule="Inventory_System" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="updateProduct" modalPresentationStyle="fullScreen" id="hHo-w7-lYc" customClass="UpdateProductController" customModule="Inventory_System" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3mX-0m-c6c">
                         <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
